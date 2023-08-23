@@ -4,7 +4,7 @@ import type { Arguments } from './types';
 
 const templates: Record<string, string[]> = {
   'composite-action': ['action.{yml,yaml}', 'LICENSE'],
-  'javascript-action': ['action.{yml,yaml}', 'dist/**', 'LICENSE'],
+  'javascript-action': ['action.{yml,yaml}', 'dist/**', 'LICENSE', 'README{,.md}'],
 };
 
 const extractNames = (input: string) =>
